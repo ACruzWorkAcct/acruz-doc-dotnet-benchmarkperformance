@@ -9,7 +9,7 @@ public static class Recorder
     private static long bytesPhysicalBefore = 0;
     private static long bytesVirtualBefore = 0;
 
-    private static void Start()
+    public static void Start()
     {
         // Call garbage collect
         GC.Collect();
