@@ -2,7 +2,7 @@
 
  Measure efficiency of processing strings
 
-StringBuilder is more than 1,700 times faster and about 10 times more memory-efficient when concatenating text:
+StringBuilder is more than 1,700 times faster and about 10 times more memory-efficient than string addition:
 ```
 *
 * Using StringBuilder
